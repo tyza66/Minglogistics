@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "明运输"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/dylx/dylx",
+			"style": {
+				"navigationBarTitleText": "订阅路线",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/thjl/thjl",
+			"style": {
+				"navigationBarTitleText": "通话记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/dtdd/dtdd",
+			"style": {
+				"navigationBarTitleText": "当天订单",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/index/gn/gn",
+			"style": {
+				"navigationBarTitleText": "功能",
+				"enablePullDownRefresh": false
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "页面",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"selectedColor": "#000000",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/1.png"
+			},
+			{
+				"text": "订阅线路",
+				"pagePath": "pages/dylx/dylx",
+				"iconPath": "static/tabbar/2.png"
+			},
+			{
+				"text": "当天订单",
+				"pagePath": "pages/dtdd/dtdd",
+				"iconPath": "static/tabbar/3.png"
+			},
+			{
+				"text": "通话记录",
+				"pagePath": "pages/thjl/thjl",
+				"iconPath": "static/tabbar/4.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar/5.png"
+			}
+		],
+		"backgroundColor": "#fdf79f",
+		"fontSize": "15px"
+	}
+}
